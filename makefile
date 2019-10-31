@@ -6,3 +6,6 @@ metro.dat: metropolis.x
 
 metropolis.x: metropolis.cpp
 	c++ metropolis.cpp -o metropolis.x
+
+clean:
+	rm -r metro.dat metropolis.x histo.png
